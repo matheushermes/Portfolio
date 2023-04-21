@@ -1,0 +1,72 @@
+@keyframes audiobar {
+    0% {
+        width: 0;
+    }
+    100% { 
+        width: 100%;
+    }
+}
+
+#container-main {
+    height: 95.6vh;
+    width: 100%;
+    padding: 0 10%;
+    background-image: linear-gradient(to right, #181818, #1d1d1e, #212224, #25272a, #292d30);
+}
+
+#info-th {
+    color: #FFFF;
+}
+
+#info-th p {
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+/* Player of music*/
+#container-player {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-bar {
+    width: 100%;
+    height: .2rem;
+    background-color: #FFFF;
+    border-radius: 50px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #00C6FF;
+    border-radius: 50px;
+    width: 0;
+    animation: audiobar 100s linear infinite
+}
+
+.buttons-player {
+    color: #FFFF;
+    margin-top: 1.2rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-player div {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: .5s ease-in;
+}
+
+.buttons-player div:nth-child(3) {
+    font-size: 2.5rem;
+}
+
+.buttons-player div:hover {
+    color: #00C6FF;
+}
