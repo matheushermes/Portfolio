@@ -1,0 +1,68 @@
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+#modal-contact {
+    width: 90%;
+    height: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #181818, #1d1d1e, #212224, #25272a, #292d30);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #FFFF;
+    border-radius: 15px;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#modal-contact.active-modal-contact {
+    animation: fadeIn 0.5s ease-in-out forwards;
+    opacity: 1;
+    visibility: visible;
+    z-index: 4;
+}
+
+#modal-contact h1 {
+    margin-bottom: 1rem;
+    grid-column: 1 / 4;
+}
+
+#close-contact {
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transition: .8s ease;
+}
+
+#close-contact:hover {
+    color: #00C6FF;
+}
+
+.contact {
+    cursor: pointer;
+    background: linear-gradient(90deg, hsla(225, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    transition: .8s ease;
+}
+
+.contact:hover {
+    color: #202020;
+    border: #202020 1px solid;
+}

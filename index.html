@@ -12,13 +12,13 @@
     <meta property="og:description" content="Software Developer">
     <meta property="og:image" content="">
     <title>Matheus Santos | Software Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/main-content.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/model-skills.css">
+    <link rel="stylesheet" href="assets/css/modal-contact.css">
 </head>
 <body>
 
@@ -54,7 +54,7 @@
                 <a href="#projects">
                     <li><i class="fa-solid fa-diagram-project"></i> Projects</li>
                 </a>
-                <a href="#contact">
+                <a href="#contact" class="open-modal-contact">
                     <li><i class="fa-solid fa-address-book"></i> Contact</li>
                 </a>
             </ul>
@@ -83,7 +83,7 @@
                 <div><i class="fa-solid fa-backward-step"></i></div>
                 <div><i class="fa-solid fa-circle-play"></i></div>
                 <div><i class="fa-solid fa-forward-step"></i></div>
-                <div><i class="fa-solid fa-share"></i></div>
+                <div class="btn-open-modal-contact"><i class="fa-solid fa-share"></i></div>
             </div>
         </section>
 
@@ -94,10 +94,10 @@
             <p>Desenvolvedor de Software, iniciando no desenvolvimento em 2021, me reconheço como entusiasta em novas tecnologias do mercado, com aprendizado adquirido dia após dia. Atualmente trabalho com desenvolvimento RPA e IA Conversacional. Me considero ágil e consistente em aprender novas tecnologias e me adaptar à qualquer tipo de mudança, pronto para aceitar qualquer desafio!</p>
         </section>
 
-        <!-- SKILLS -->
+        <!-- MODAL SKILLS -->
 
         <section id="modal-skills">
-            <h1> Skills </h1>
+            <h1>Skills</h1>
                 <div id="close-skill">
                     <i class="fa-solid fa-xmark"></i>
                 </div>
@@ -105,15 +105,25 @@
                 <div class="skill"><i class="fa-brands fa-html5"></i>HTML</div>
                 <div class="skill"><i class="fa-brands fa-css3-alt"></i>CSS</div>
                 <div class="skill"><i class="fa-brands fa-js"></i>JavaScript</div>
-
                 <div class="skill"><i class="fa-brands fa-golang"></i>Golang</div>
+                <div class="skill"><i class="fa-solid fa-code"></i>API RESTful</div>
                 <div class="skill"><i class="fa-brands fa-git-alt"></i>Git / GitHub</div>
-
                 <div class="skill"><i class="fa-solid fa-robot"></i>RPA</div>
-
                 <div class="skill"><i class="fa-solid fa-comments"></i>Cognigy IA</div>
 
             </div>
+        </section>
+
+        <section id="modal-contact">
+            <h1>Contact</h1>
+            <div id="close-contact">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <div class="contact"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="contact"><i class="fa-brands fa-instagram"></i></div>
+            <div class="contact"><i class="fa-brands fa-github"></i></div>
+            <div class="contact"><i class="fa-solid fa-envelope"></i></div>
         </section>
 
         <div id="page-overlay"></div>
