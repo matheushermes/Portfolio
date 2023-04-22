@@ -9,3 +9,7 @@
     text-decoration: none;
     font-family: 'Saira Condensed', sans-serif;
 }
+
+body {
+    background-image: linear-gradient(to right, #181818, #1d1d1e, #212224, #25272a, #292d30);
+}
