@@ -18,9 +18,14 @@
 }
 
 #container-img-album-th {
-    height: 50vh;
-    background-color: #00C6FF;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-album {
+    width: 80%;
 }
 
 #info-th {
