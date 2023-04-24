@@ -9,7 +9,7 @@
 
 #modal-contact {
     width: 90%;
-    height: 40%;
+    height: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -65,4 +65,11 @@
 .contact:hover {
     color: #202020;
     border: #202020 1px solid;
+}
+
+/* Janela de 660px de altura */
+@media screen and (max-height: 41.25rem) {
+    #modal-contact {
+        height: 80%;
+    }
 }

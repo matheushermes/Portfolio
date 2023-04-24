@@ -9,7 +9,7 @@
 
 #modal-skills {
     width: 90%;
-    height: 45%;
+    height: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -21,7 +21,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
-    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
     opacity: 0;
     visibility: hidden;
 }
@@ -85,25 +86,19 @@
     display: block;
   }
 
-@media screen and (min-width: 25rem) {
+/* Janela de 660px de altura */
+@media screen and (max-height: 41.25rem) {
     #modal-skills {
-        height: 35%;
-    }
-
-    .skill {
-        font-size: 1.1rem;
+        height: 80%;
     }
 }
 
 @media screen and (min-width: 48.75rem) {
-    #modal-skills {
-        height: 35%;
-    }
 
-    .skill {
-        font-size: 1.2rem;
-    }
 }
+
+
+
 
 
 
