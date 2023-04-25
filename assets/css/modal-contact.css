@@ -15,6 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(to right, #181818, #1d1d1e, #212224, #25272a, #292d30);
+    color: #FFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

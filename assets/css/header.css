@@ -22,6 +22,10 @@
     color: #181818;
 }
 
+#logo-01 {
+    display: none;
+}
+
 @media screen and (min-width: 61.25rem) {
     #container-header {
         width: 13rem;
@@ -44,4 +48,17 @@
         font-size: 1.3rem;
     }
 
+    #logo-01 {
+        display: block;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        position: absolute;
+        top: 0;
+        right: 1.5rem;
+    }
+
+    #logo-01 img {
+        width: 100%;
+    }
 }
