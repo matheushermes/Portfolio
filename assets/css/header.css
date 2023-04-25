@@ -24,23 +24,34 @@
 
 @media screen and (min-width: 48.75rem) {
     #container-header {
-        width: 2.5rem;
-        height: 10rem;
+        width: 13rem;
+        height: 19vh;
         margin-top: .5rem;
         margin-left: .5rem;
         border-radius: 15px;
         display: flex;
+        z-index: 3;
     }
 
     .header-list-social-media {
         flex-direction: column;
         align-items: flex-start;
+        padding: 0 .5rem;
+        z-index: 3;
     }
 
     .header-list-social-media a {
-        margin-left: .7rem;
-        font-size: 1.1rem;
+        width: 100%;
+        margin: .3rem 0 .3rem 0;
+        padding: 0 .2rem;
+        font-size: 1.2rem;
         color: #FFFF;
         transition: ease .5s;
+        border-radius: 7px;
+    }
+
+    .header-list-social-media a:hover {
+        color: #181818;
+        background-color: #ffffff17;
     }
 }
