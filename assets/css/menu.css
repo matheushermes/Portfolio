@@ -71,7 +71,7 @@
     color: #00C6FF; 
 }
 
-@media screen and (min-width: 48.75rem) {
+@media screen and (min-width: 61.25rem) {
     #container-nav {
         width: 13rem;
         height: 100vh;

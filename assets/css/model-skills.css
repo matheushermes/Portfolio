@@ -94,8 +94,14 @@
     }
 }
 
-@media screen and (min-width: 48.75rem) {
+@media screen and (min-width: 61.25rem) {
+    .skill {
+        font-size: 1rem;
+    }
 
+    .skill i {
+        font-size: 2rem;
+    }
 }
 
 

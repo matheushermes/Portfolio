@@ -74,4 +74,8 @@
     }
 }
 
-
+@media screen and (min-width: 61.25rem) {
+    .contact {
+        font-size: 2rem;
+    }
+}

@@ -22,7 +22,7 @@
     color: #181818;
 }
 
-@media screen and (min-width: 48.75rem) {
+@media screen and (min-width: 61.25rem) {
     #container-header {
         width: 13rem;
         height: 7vh;

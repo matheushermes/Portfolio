@@ -12,9 +12,9 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 48.75rem) {
+@media screen and (min-width: 61.25rem) {
     #about {
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 2 / 4;
         padding: 1rem;
     }
