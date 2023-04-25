@@ -3,9 +3,13 @@
     padding-bottom: 1.5rem;
     color: #FFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 2rem 10% 0;
     border-top: 1px solid rgba(92, 92, 92, 0.438);
+}
+
+#container-footer div img {
+    width: 1.2rem;
 }
 
 @media screen and (min-width: 61.25rem) {
