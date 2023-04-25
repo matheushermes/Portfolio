@@ -74,11 +74,12 @@
 @media screen and (min-width: 48.75rem) {
     #container-nav {
         width: 13rem;
-        height: 80vh;
-        top: 20vh;
+        height: 100vh;
+        top: 8vh;
         margin-top: .5rem;
         margin-left: .5rem;
         border-radius: 15px;
+        z-index: 1;
 
     }
 
@@ -89,7 +90,7 @@
 
     #sidebar {
         background-image: none;
-        background-color: #202020;
+        background-color: #181818;
         width: 100%;
         height: 100%;
         top: 0;
@@ -99,7 +100,8 @@
 
     #list-menu {
         display: block;
-        margin: 12rem .5rem 0 .5rem;
+        margin: 0 .5rem 0 .5rem;
+        padding: 3rem 0;
         
     }
 
@@ -108,7 +110,7 @@
     }
 
     #list-menu li {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         font-size: 1.2rem;
         letter-spacing: .1rem;
         padding: .2rem;

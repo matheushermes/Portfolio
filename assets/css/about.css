@@ -11,3 +11,11 @@
 #about h2 {
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 48.75rem) {
+    #about {
+        grid-row: 2;
+        grid-column: 2 / 4;
+        padding: 1rem;
+    }
+}

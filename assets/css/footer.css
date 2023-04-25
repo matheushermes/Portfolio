@@ -7,3 +7,9 @@
     margin: 2rem 10% 0;
     border-top: 1px solid rgba(92, 92, 92, 0.438);
 }
+
+@media screen and (min-width: 48.75rem) {
+    #container-footer {
+        display: none;
+    }
+}
