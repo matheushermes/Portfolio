@@ -24,6 +24,7 @@ closeModalSkill.addEventListener('click', () => {
 //Modal de contato;
 let openModalContact = document.querySelector(".open-modal-contact");
 let btnOpenModalContact = document.querySelector(".btn-open-modal-contact");
+let btnOpenModalContact2 = document.querySelector(".btn-open-modal-contact-2")
 let closeModalContact = document.getElementById("close-contact");
 let modalContact = document.getElementById("modal-contact");
 
@@ -34,6 +35,7 @@ function openModalContacts() {
 
 openModalContact.addEventListener('click', openModalContacts);
 btnOpenModalContact.addEventListener('click', openModalContacts);
+btnOpenModalContact2.addEventListener('click', openModalContacts)
 
 closeModalContact.addEventListener('click', () => {
     modalContact.classList.remove('active-modal-contact');
@@ -43,6 +45,7 @@ closeModalContact.addEventListener('click', () => {
 //Modal de projetos;
 let openModalProject = document.querySelector(".open-modal-project");
 let btnOpenModalProject = document.querySelector(".btn-open-modal-project");
+let btnOpenModalProject2 = document.querySelector(".btn-open-modal-project-2")
 let closeModalProject = document.getElementById("close-project");
 let modalProject = document.getElementById("modal-projects");
 
@@ -53,6 +56,7 @@ function openModalProjects() {
 
 openModalProject.addEventListener('click', openModalProjects);
 btnOpenModalProject.addEventListener('click', openModalProjects);
+btnOpenModalProject2.addEventListener('click', openModalProjects);
 
 closeModalProject.addEventListener('click', () => {
     modalProject.classList.remove('active-modal-project');
