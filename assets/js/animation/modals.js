@@ -1,6 +1,6 @@
 let pageOverlay = document.getElementById("page-overlay");
 
-//Modal de habilidades;
+//MODAL DE HABILIDADES;
 let openModalSkill = document.querySelector(".open-modal-skill");
 let btnOpenModalSkill = document.querySelector(".btn-open-modal-skill");
 let closeModalSkill = document.getElementById("close-skill");
@@ -21,7 +21,7 @@ closeModalSkill.addEventListener('click', () => {
 });
 
 
-//Modal de contato;
+//MODAL DE CONTATO;
 let openModalContact = document.querySelector(".open-modal-contact");
 let btnOpenModalContact = document.querySelector(".btn-open-modal-contact");
 let btnOpenModalContact2 = document.querySelector(".btn-open-modal-contact-2")
@@ -42,7 +42,7 @@ closeModalContact.addEventListener('click', () => {
     pageOverlay.classList.remove('active-page-overlay');
 });
 
-//Modal de projetos;
+//MODAL DE PROJETOS;
 let openModalProject = document.querySelector(".open-modal-project");
 let btnOpenModalProject = document.querySelector(".btn-open-modal-project");
 let btnOpenModalProject2 = document.querySelector(".btn-open-modal-project-2")

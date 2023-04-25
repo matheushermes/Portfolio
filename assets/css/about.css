@@ -12,6 +12,7 @@
     margin-bottom: 1rem;
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     #about {
         grid-row: 3;

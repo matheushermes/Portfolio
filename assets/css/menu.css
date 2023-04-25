@@ -6,6 +6,7 @@
     justify-content: center;
 }
 
+/* MENU VERSÃO MOBILE */
 #menu-mobile {
     width: 1rem;
     height: 2rem;
@@ -71,10 +72,12 @@
     color: #00C6FF; 
 }
 
+/* LOGO 02 CONTIDO NO MENU */
 #logo-02 {
     display: none;
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     #container-nav {
         width: 13rem;
@@ -87,6 +90,7 @@
 
     }
 
+    /* MENU VERSÃO DESKTOP */
     #menu-mobile {
         display: none;
         z-index: 0;
@@ -132,6 +136,7 @@
         width: 2rem;
     }
 
+    /* LOGO 02 CONTIDO NO MENU */
     #logo-02 {
         display: block;
         position: absolute;

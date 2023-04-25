@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
 
+/* RESET DE PROPRIEDADES DOS BROWSERS*/
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +11,12 @@
     font-family: 'Saira Condensed', sans-serif;
 }
 
+/* COR DO BODY */
 body {
     background-image: linear-gradient(to right, #181818, #1d1d1e, #212224, #25272a, #292d30);
 }
 
+/* ESTILO DA SCROLLBAR */
 ::-webkit-scrollbar {
     width: 8px;
 }

@@ -17,6 +17,7 @@
     
 }
 
+/* IMAGEM DO ALBUM */
 #container-img-album-th {
     margin-bottom: 1rem;
     display: flex;
@@ -38,7 +39,7 @@
     margin-bottom: 3rem;
 }
 
-/* Player of music*/
+/* PLAYER DE MÚSICA 01 */
 #container-player {
     width: 100%;
     display: flex;
@@ -85,13 +86,12 @@
     color: #00C6FF;
 }
 
-/* Player music 2 */
+/* PLAYER DE MÚSICA 02 */
 #container-player-2 {
     display: none;
 }
 
-/* Repository GITHUB */
-
+/* REPOSITORY GITHUB */
 #repository-github {
     display: flex;
     justify-content: center;
@@ -129,6 +129,7 @@
     padding-left: .5rem;
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     #container-main {
         display: grid;
@@ -144,6 +145,7 @@
         overflow: hidden;
     }
 
+    /* IMAGEM DO ALBUM */
     #container-info {
         width: 100%;
         display: flex;
@@ -164,6 +166,7 @@
         font-size: 1.4rem;
     }
 
+    /* PLAYER DE MÚSICA 01 */
     #container-player {
         position: fixed;
         bottom: 0;
@@ -173,6 +176,7 @@
         z-index: 3;
     }
 
+    /*PLAYER DE MÚSICA 02 */
     #container-player-2 {
         display: inline-block;
         grid-row: 2;
@@ -215,12 +219,14 @@
         color: #FFFF;
     }
 
+    /* REPOSITÓRIO GITHUB */
     #repository-github {
         grid-row: 4;
         grid-column: 2 / 4;
     }
 }
 
+/* VERSÃO A PARTIR DE 1380px */
 @media screen and (min-width: 86.25rem) {
     #container-main {
         grid-template-rows: 40% 7% 30% 11%;

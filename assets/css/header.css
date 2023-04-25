@@ -26,6 +26,7 @@
     display: none;
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     #container-header {
         width: 13rem;
@@ -48,6 +49,7 @@
         font-size: 1.3rem;
     }
 
+    /* LOGO 01 APARENTE NO HEADER */
     #logo-01 {
         display: block;
         position: absolute;

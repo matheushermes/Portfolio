@@ -8,10 +8,12 @@
     border-top: 1px solid rgba(92, 92, 92, 0.438);
 }
 
+/* LOGO 02 APARENTE NO FOOTER */
 #container-footer div img {
     width: 1.2rem;
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     #container-footer {
         display: none;

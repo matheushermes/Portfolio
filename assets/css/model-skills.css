@@ -87,13 +87,14 @@
     display: block;
   }
 
-/* Janela de 660px de altura */
+/* VERSÃO A PARTIR DE 660px */
 @media screen and (max-height: 41.25rem) {
     #modal-skills {
         height: 80%;
     }
 }
 
+/* VERSÃO A PARTIR DE 980px */
 @media screen and (min-width: 61.25rem) {
     .skill {
         font-size: 1rem;

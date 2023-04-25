@@ -1,4 +1,3 @@
-//Efeito máquina de escrever;
 const occupation = document.querySelector('#occupation');
 const text = occupation.innerHTML
 let index = 0
